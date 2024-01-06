@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body{
+  font-size: 18px;
+  background-color: #f5f6f7;
+}
+h1 {
+  max-width: 940px;
+  font-size: 2.5em; /*em es si por eejemplo su contenedor es 10 el valor sera 2.5  asi es relativo en vez de fijo */
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+}
+.App {
+  min-height: 100vh ;   /* con vh se adapta al tamaño en vertical de la pantalla*/
+  display: flex;
+  flex-wrap: wrap;  /* con este un elemento ocupa todo el contenedor los demas tendran que ir debajo*/
+  align-items: center;/* se alinean en el centro*/
+  justify-content: center; /* se centra horizontalmente*/
+  text-align: center; /* se alinea en el centro*/
+}
+.contenedor-principal {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;/* se alinean en el centro*/
+  justify-content: center;
+}
